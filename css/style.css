@@ -527,4 +527,20 @@ footer ul li a:hover {
     .test {
     margin-bottom:100px;
     }
+   .container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+    width:100%;
+    margin: 0 8px;
+    align-self: center;
+    justify-self: center;
+    justify-content:center;
+    }
+    .about-text h2 {
+        margin-bottom: 30px;
+        margin-top: 30px;
+        text-align: center;
+
+    }
 }
