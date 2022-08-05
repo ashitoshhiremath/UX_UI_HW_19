@@ -486,15 +486,16 @@ footer ul li a:hover {
         flex-direction:column-reverse;
       }
     .skills {
-        display flex;
+        display: flex;
         flex-direction: column;
         background-color: #F7F7F7;
         padding: 96px 24px;
         width:100%;
-        flex-direction:column-reverse;
+        flex-direction:column;
     }
     .skills-item {
         margin: 0 8px;
+        padding: 20px;
         width: auto;
         text-align: center;
         font-style: normal;
@@ -522,5 +523,8 @@ footer ul li a:hover {
         align-self: center;
       justify-self: center;
      
+    }
+    .test {
+    margin-bottom:100px;
     }
 }
